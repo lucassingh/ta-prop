@@ -1,0 +1,32 @@
+.section-about {
+    height: auto; 
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .title-about- {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #6552ab;
+    }
+    .text {
+        color: black;
+        font-size: 15px;
+        line-height: 17px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .section-about {
+        margin-top: 0px; 
+        .title-about- {
+            font-size: 60px;
+        }
+        .text {
+            font-size: 22px;
+            line-height: 37px;
+        }
+    }
+}

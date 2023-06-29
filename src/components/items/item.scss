@@ -1,0 +1,37 @@
+.main-container {
+    .bg {
+        background-image: url('../../assets/bg-5.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        position: absolute;
+        background-repeat: repeat;
+        z-index: -9999;
+    }
+    .item {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-weight: 700;
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .main-container {
+        /* .bg {
+            background-image: url('../../assets/backgound2.png');
+        } */
+        .item {
+            height: 300px;
+            justify-content: flex-start;
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+}

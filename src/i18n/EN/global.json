@@ -1,0 +1,47 @@
+{
+    "header": {
+        "link1":"Home",
+        "link2":"NEW PROJECT",
+        "link3":"THE ARBORIST",
+        "link4":"CONTACT"
+    },
+    "hero": {
+        "title":"We create artistic concepts for ",
+        "subtitle": "further development of human capacities",
+        "subtitle2": "from a harmonic and educational point of view"
+    },
+    "enum1": {
+        "option1":"Expression",
+        "option2":"Experience",
+        "option3":"Integration",
+        "option4":"Transcendence"
+    },
+    "about": {
+        "title": "We present the story of the Holocaust and the life of Liliana Herman...",
+        "text": "responsible for the deportations to concentration camps and mentor of the so-called \"final solution\", had been living in Buenos Aires for some time. After years of reporting his presence and with remarkable persistence to achieve the goal of justice, Lothar succeeded in having Adolf Eichmann captured in Buenos Aires on 11 May 1960 and transferred to Israel for trial and sentencing. Eichmann met his end at the gallows on 31 May 1961..."
+    },
+    "projects": {
+        "option1":"A.I.",
+        "option2":"VIRTUAL",
+        "option2a":"REALITY",
+        "option3":"ALTERNATIVES",
+        "option3a":"TECHNOLOGIES",
+        "option4": "ENHANCED",
+        "option4a": "REALITY",
+        "option5":"TECHNOLOGY OF",
+        "option5a": "FREQUENCIES",
+        "option5c":"AND VIBRATIONS",
+        "option6":"HOLOGRAMS"
+    },
+    "arborist":{
+        "title": "What is The Arborist?",
+        "text1": "Guided by the four values expressed as our Principles,",
+        "text2": "The Arborists",
+        "text3": "is a project of the",
+        "text4": "Amplitud Foundation",
+        "text5": "whose main objective is to collaborate in the creation of artistic concepts for the further development of human capabilities from a harmonious and educational point of view."
+    },
+    "contact":{
+        "text":"CONTACT"
+    }
+}

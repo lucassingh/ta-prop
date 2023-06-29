@@ -1,0 +1,116 @@
+.wrapper-slider {
+    overflow-x: hidden;
+    padding: 2rem 0;
+    text-align: center;
+
+    .container-slider {
+        padding: 10px;
+
+        .testimonial__wrapper {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #6552ab;
+            border-radius: 7px;
+        }
+
+        .testimonial__info {
+            width: 100%;
+            height: fit-content;
+            background-color: var(--deep-dark);
+            border-radius: 12px;
+        }
+
+        .testimonial__desc {
+            text-align: left;
+            .para {
+                text-align: center;
+            }
+            .text_desc {
+                color: white;
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+
+        .testimonial__name {
+            margin-top: 4rem;
+            font-family: 'Montserrat Bold';
+            font-size: 2.2rem;
+        }
+    }
+
+    .arrows {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            width: 30px;
+            pointer-events: none;
+        }
+
+        .next,
+        .prev {
+            margin: 0 0.5rem;
+            width: fit-content;
+            background: white;
+            opacity: 0.8;
+            padding: 0.2rem 0.5rem;
+            border-radius: 8px;
+            color: #6552ab;
+            font-size: 35px;
+            cursor: pointer;
+        }
+    }
+
+    .fade-enter {
+        opacity: 0;
+        transform: scale(0.98);
+        z-index: 1;
+    }
+
+    .fade-enter-active {
+        opacity: 1;
+        transform: scale(1);
+        transition: 250ms ease-in;
+        transition-property: transform, opacity;
+        z-index: 1;
+    }
+
+    .fade-exit {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .fade-exit-active {
+        opacity: 0;
+        transform: scale(0.96);
+        transition: 200ms ease-in;
+        transition-property: transform, opacity;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .wrapper-slider {
+        padding: 5rem 0;
+        .container-slider {
+            padding: 20px;
+            .text_desc {
+                line-height: 30px;
+            }
+            .testimonial__wrapper {
+                padding: 40px;
+            }
+        }
+        .arrows {    
+            .next,
+            .prev {
+                font-size: 18px;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}

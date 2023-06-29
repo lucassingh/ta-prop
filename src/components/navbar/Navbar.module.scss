@@ -1,0 +1,126 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+    height: $header-height;
+    background-color: $dark-color;
+    color: $secondary-color;
+    font-weight: bolder;
+    width: 100%;
+    letter-spacing: 5px;
+    display: flex;
+    z-index: 1000;
+    opacity: 0.8;
+
+    &__content {
+        margin: 0 auto;
+        transition: 0.3s ease padding;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &>div {
+            flex: 1;
+            white-space: nowrap;
+
+            &:nth-child(2) {
+                display: flex;
+                justify-content: flex-start;
+                height: 100%;
+            }
+
+            &:last-of-type {
+                display: flex;
+                justify-content: flex-end;
+                display: none;
+                flex: 0;
+            }
+        }
+        .nav-button {
+            background: none;
+            padding: 5px;
+            border: 1px solid white;
+        }
+    }
+
+    &__button__container {
+        display: none;
+
+        @include breakpoint(md) {
+            display: initial;
+        }
+    }
+
+    &__toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        @include breakpoint(md) {
+            display: none;
+        }
+
+        &>svg {
+            display: block;
+            font-size: 32px;
+        }
+    }
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    top: $header-height;
+    right: -100%;
+    text-align: center;
+    padding: $spacing-md 0;
+
+    &--open {
+        transition: 0.2s ease right;
+        right: 0;
+        background-color: #000;
+        opacity: 0.8;
+    }
+
+    &__item {
+        display: block;
+        padding: $spacing-md;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        height: 100%;
+        transition: 0.3s ease color;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    @include breakpoint(md) {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background: initial;
+        width: auto;
+        padding: 0;
+
+        &__item {
+            padding: 0 $spacing-md;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        &__content {
+            &>div {
+                &:last-of-type {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

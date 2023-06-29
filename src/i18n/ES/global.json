@@ -1,0 +1,47 @@
+{
+    "header": {
+        "link1":"Home",
+        "link2":"NUEVO PROYECTO",
+        "link3":"THE ARBORIST",
+        "link4":"CONTACTO"
+    },
+    "hero": {
+        "title":"Creamos conceptos artísticos para ",
+        "subtitle": "un mayor desarrollo de las capacidades humanas",
+        "subtitle2": "desde un punto de vista armónico y educativo"
+    },
+    "enum1": {
+        "option1":"Expresión",
+        "option2":"Experiencia",
+        "option3":"Integración",
+        "option4":"Trascendencia"
+    },
+    "about": {
+        "title": "Presentamos la historia del Holocausto y la vida de Liliana Herman...",
+        "text": "responsable de las deportaciones a campos de concentración y mentor de la llamada \"solución final\", vivía desde hacía tiempo en Buenos Aires. Luego de años de haber reportado su presencia y teniendo una persistencia notable para alcanzar el objetivo de hacer justicia, Lothar logró que capturaran a Adolf Eichmann en Buenos Aires el 11 de mayo de 1960 y lo trasladaran a Israel para ser juzgado y condenado. Eichmann encontró su final en la horca el 31 de Mayo de 1961... "
+    },
+    "projects": {
+        "option1":"A.I.",
+        "option2":"REALIDAD",
+        "option2a":"VIRTUAL",
+        "option3":"TECNOLOGIÁS",
+        "option3a":"ALTERNATIVAS",
+        "option4": "REALIDAD",
+        "option4a": "AUMENTADA",
+        "option5":"TECNOLOGÍA DE",
+        "option5a": "FRECUENCIAS",
+        "option5c":"Y VIBRACIONES",
+        "option6":"HOLOGRAMAS"
+    },
+    "arborist":{
+        "title": "Qué es The Arborist?",
+        "text1": "Guiado por los cuatro valores expresados como nuestros Principios,",
+        "text2": "The Arborists",
+        "text3": "es un proyecto de la",
+        "text4": "Fundación Amplitud",
+        "text5": "cuyo objetivo principal es colaborar en la creación de conceptos artísticos para un mayor desarrollo de las capacidades humanas desde un punto de vista armónico y educativo."
+    },
+    "contact":{
+        "text":"CONTACTO"
+    }
+}

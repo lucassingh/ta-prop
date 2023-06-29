@@ -1,0 +1,27 @@
+$lato-sans: 'Lato', sans-serif;;
+
+$primary-color: #fff;
+$secondary-color: #dbb543;
+$third-color:#5c569a;
+$text-color: #000;
+$dark-color: #000;
+$gray-color: #A4A4A4;
+
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-lg: 32px;
+
+$header-height: 72px;
+
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+$xl: 75em;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: $md) {
+            @content;
+        }
+    }
+}

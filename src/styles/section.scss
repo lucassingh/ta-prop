@@ -1,0 +1,30 @@
+.section- {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+    .title-about- {
+        font-size: 35px;
+        font-weight: bolder;
+        color: #6552ab;
+    }
+    .text {
+        color: #6552ab;
+        font-size: 18px;
+        line-height: 31px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .section- {
+        height: 100vh; 
+        .title-about- {
+            font-size: 60px;
+        }
+        .text {
+            font-size: 22px;
+            line-height: 37px;
+        }
+    }
+}

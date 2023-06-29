@@ -1,0 +1,41 @@
+.section-offer {
+    background-color: #dab543;
+    .cont-img {
+        text-align: center;
+    }
+    .cont-text {
+        margin-top: 30px;
+        h4 {
+            font-size: 28px;
+            font-weight: bolder;
+            color: white;
+        }
+        span {
+            font-size: 18px;
+            color: white;
+            line-height: 31px;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 420px) {
+    .section-offer {
+        .cont-text {
+            margin-top: 0px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            h4 {
+                font-size: 50px;
+                font-weight: bolder;
+                color: white;
+            }
+            span {
+                font-size: 22px;
+                color: white;
+                line-height: 37px;
+            }
+        }
+    }
+}
